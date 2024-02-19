@@ -1,0 +1,40 @@
+.about{
+    width: 100%;
+    height:100%;
+    z-index: -4;
+    min-height: 100vh; 
+    padding-bottom: 100px; 
+}
+.program{
+    display: inline-flex;
+    padding:2rem;
+    z-index: -4;
+}
+.background{
+    display:inline-flex;
+    padding:2rem;
+    z-index: -4;
+}
+h3{
+    margin: 4rem;
+    display: inline;
+    padding: 1em;
+}
+p{
+    display: inline;
+    margin:3rem;
+}
+
+@media screen and (max-width:1040px){
+    .about{
+        z-index: -4;
+        padding-bottom: 150px;
+    }
+    .program, .background {
+        padding: 1rem; 
+
+    }
+    h3, p {
+        margin: 0.5rem 0;
+    }
+}

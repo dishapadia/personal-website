@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e6c2391c.css",
+    "main.js": "/static/js/main.f551aea4.js",
+    "static/media/Global_Education.png": "/static/media/Global_Education.94ce62044a967e3e3814.png",
+    "static/media/Calendar.png": "/static/media/Calendar.299867eb4925ce886695.png",
+    "index.html": "/index.html",
+    "main.e6c2391c.css.map": "/static/css/main.e6c2391c.css.map",
+    "main.f551aea4.js.map": "/static/js/main.f551aea4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c2391c.css",
+    "static/js/main.f551aea4.js"
+  ]
+}

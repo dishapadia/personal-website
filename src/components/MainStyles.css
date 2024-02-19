@@ -1,0 +1,51 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin: 20px auto;
+    text-align: center;
+    padding: 2em;
+    position: relative;
+}
+
+.content {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.links,
+.resume {
+    margin-top: 20px;
+}
+
+.links a,
+.resume a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.links a {
+    padding: 12px 32px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background: #154360;
+    color: #85C1E9;
+    border: 1px solid whitesmoke;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.resume a {
+    padding: 12px 24px;
+}
+
+@media screen and (max-width:1040px){
+    .main{
+        z-index: -4;
+        padding-bottom: 150px;
+    }
+}
