@@ -5,40 +5,32 @@ import "./NavbarStyles.css";
 
 const Navbar = () => {
     const [click, setClick] = useState(false);
-    const handleClick = () => setClick(!click)
-
-    const [color, setColor] = useState(false);
-    const changeColor = () => {
-        if(window.any >= 100){
-            setColor(true);
-        }
-        else{
-            setColor(false)
-        }
+    const handleClick = () => {
+        setClick(!click);
     };
-    window.addEventListener("scroll",changeColor);
-  return (
-    <div className={color?"header header-bg":"header"}>
-        <Link to="/">
-        <h1 className="name">P A D I A.</h1>
-        </Link>
-       <ul className={click?"nav-menu active":"nav-menu"}>
-            <li>
-                <Link to="/">Home</Link>
-            </li>
-            <li>
-                <Link to="/projects">Projects</Link>
-            </li>
-            <li>
-                <Link to="/about">About</Link>
-            </li>
-        </ul>
-        { <div className="hamburger" onClick={handleClick}>
-            {click? <FaTimes size={25} style={{color:"#154360"}}/>:
-            <FaBars size={25} style={{color:"#154360"}}/>}
-        </div> }
-    </div>
-  )
-}
 
-export default Navbar
+    return (
+        <div className={click ? "header active" : "header"}>
+            <Link to="/">
+                <h1 className="name">P A D I A.</h1>
+            </Link>
+            <ul className={click ? "nav-menu active" : "nav-menu"}>
+                <li>
+                    <Link to="/" onClick={() => setClick(false)}>Home</Link>
+                </li>
+                <li>
+                    <Link to="/projects" onClick={() => setClick(false)}>Projects</Link>
+                </li>
+                <li>
+                    <Link to="/about" onClick={() => setClick(false)}>About</Link>
+                </li>
+            </ul>
+            <div className="hamburger" onClick={handleClick}>
+                {click ? <FaTimes size={25} style={{ color: "#154360" }} /> :
+                    <FaBars size={25} style={{ color: "#154360" }} />}
+            </div>
+        </div>
+    );
+};
+
+export default Navbar;

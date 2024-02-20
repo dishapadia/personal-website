@@ -17,18 +17,9 @@
     margin-bottom: 20px;
 }
 
-.links,
-.resume {
-    margin-top: 20px;
-}
-
-.links a,
-.resume a {
+.links a .resume a {
     display: inline-block;
     margin: 0 10px;
-}
-
-.links a {
     padding: 12px 32px;
     font-size: 1rem;
     text-transform: uppercase;
@@ -37,15 +28,15 @@
     border: 1px solid whitesmoke;
     font-weight: 600;
     cursor: pointer;
+    z-index: 2;
 }
 
 .resume a {
     padding: 12px 24px;
 }
 
-@media screen and (max-width:1040px){
-    .main{
-        z-index: -4;
-        padding-bottom: 150px;
+@media screen and (max-width:1040px) {
+    .links {
+        z-index: 0;
     }
 }

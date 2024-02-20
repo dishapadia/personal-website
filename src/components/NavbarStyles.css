@@ -1,54 +1,69 @@
-.header{
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:1rem;
     padding: 12px 32px;
     background-color: #6e97b1;
     top: 0;
     position: sticky;
+    z-index: 1000;
 }
 
-.name{
-    font-family:'Courier New', Courier, monospace;
+.name {
+    font-family: 'Courier New', Courier, monospace;
 }
-.nav-menu{
-    display:flex;
+
+.nav-menu {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
 }
-.nav-menu li{
-    padding:1rem 1rem;
+
+.nav-menu li {
+    padding: 1rem 1rem;
 }
-.nav-menu li a{
+
+.nav-menu li a {
     font-size: 1.2rem;
-    font-weight:500;
+    font-weight: 500;
+    color: #154360;
+    text-decoration: none;
 }
 
-.hamburger{
+.hamburger {
     display: none;
 }
 
-@media screen and (max-width:1040px){
-    .nav-menu{
+@media screen and (max-width: 1040px) {
+    .nav-menu {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width:100%;
-        height:100vh;
+        width: 100%;
+        height: 100vh;
         position: fixed;
-        top:0;
-        left:100%;
-        z-index: -1;
-        transition: 0.3s;
+        top: 0;
+        left: -100%;
         background-color: #6e97b1;
+        transition: right 0.3s ease;
+        z-index: 999; 
     }
-    .nav-menu.active{
+
+    .nav-menu.active {
         left: 0;
     }
-    
-    .nav-menu li a{
+
+    .nav-menu li a {
         font-size: 2rem;
     }
-    .hamburger{
-        display:initial;
+
+    .hamburger {
+        display: block;
+        position: fixed;
+        top: 1rem;
+        right: 1rem;
+        cursor: pointer;
+        z-index: 1001;
     }
 }
