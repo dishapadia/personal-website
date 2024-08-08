@@ -1,8 +1,8 @@
 .footer {
-    background-color: #9eaab1;
+    background-color: #8C8C8C;
     padding: 20px;
     text-align: center;
-    position: fixed;
+    position:absolute;
     bottom: 0;
     width: 100%;
     flex-direction: column;
@@ -16,12 +16,5 @@
   
   .icon {
     cursor: pointer;
+    color:#4A235A;
   }
-
-  @media screen and (max-width: 1040px) {
-    .link {
-        display: inline-block;
-        margin: 0 10px;
-    }
-  }
-  

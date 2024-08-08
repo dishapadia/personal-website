@@ -8,11 +8,11 @@
 
 }
 body{
-  background: #b5cedf;
+  background: #F7CAC9;
 }
 h1,h4,p,a{
 
-  color:#163548;
+  color:#333333;
   text-decoration:none;
 }
 ul{
@@ -22,15 +22,15 @@ ul{
   padding: 12px 32px;
   font-size: 1rem;
   text-transform: uppercase;
-  background:#154360 ;
-  color:#b5cedf;
-  border: 1px solid whitesmoke;
+  background:#8C8C8C;
+  color:#4A235A;
+  border: 1px solid #8C8C8C;
   font-weight: 600;
   cursor: pointer;
 }
 
 .btn:hover{
-  background:#154360;
-  color:whitesmoke;
+  background:#4A235A;
+  color:#8C8C8C;
   transition: 0s;
 }

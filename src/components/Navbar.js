@@ -21,13 +21,10 @@ const Navbar = () => {
                 <li>
                     <Link to="/projects" onClick={() => setClick(false)}>Projects</Link>
                 </li>
-                <li>
-                    <Link to="/about" onClick={() => setClick(false)}>About</Link>
-                </li>
             </ul>
             <div className="hamburger" onClick={handleClick}>
-                {click ? <FaTimes size={25} style={{ color: "#154360" }} /> :
-                    <FaBars size={25} style={{ color: "#154360" }} />}
+                {click ? <FaTimes size={25} /> :
+                    <FaBars size={25}  />}
             </div>
         </div>
     );
