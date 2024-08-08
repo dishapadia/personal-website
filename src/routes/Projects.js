@@ -20,7 +20,7 @@ const Projects = () => {
         </a>
       </div>
       <Footer />
-    </div>
+    </div> 
   );
 };
 

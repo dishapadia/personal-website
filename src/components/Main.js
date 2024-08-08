@@ -19,7 +19,7 @@ const Main = () => {
         </a>
       </div>
     </div>
-  );
+  ); 
 };
 
 export default Main;
