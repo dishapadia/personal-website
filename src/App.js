@@ -1,19 +1,16 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import "./index.css";
 import Home from "./routes/Home";
 import Projects from "./routes/Projects";
-
+import './index.css';
 
 function App() {
   return (
-  <>
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/projects" element={<Projects />} />
     </Routes>
-  </>
-  )
+  );
 }
- 
+
 export default App;

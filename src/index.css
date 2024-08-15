@@ -1,36 +1,49 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@400;500&display=swap');
 
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Playfair Display", sans-serif;
-
+  font-family: "Montserrat", sans-serif;
 }
-body{
+
+body {
   background: #F7CAC9;
+  color: #333333;
+  line-height: 1.6;
+  font-size: 1rem;
 }
-h1,h4,p,a{
 
-  color:#333333;
-  text-decoration:none;
+h1, h4 {
+  font-family: "Playfair Display", serif;
+  color: #4A235A;
+  margin-bottom: 0.5em;
 }
-ul{
+
+p, a {
+  color: #333333;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+ul {
   list-style-type: none;
 }
-.btn{
+
+.btn {
   padding: 12px 32px;
   font-size: 1rem;
   text-transform: uppercase;
-  background:#8C8C8C;
-  color:#4A235A;
+  background: #8C8C8C;
+  color: #4A235A;
   border: 1px solid #8C8C8C;
   font-weight: 600;
   cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  border-radius: 8px;
 }
- 
-.btn:hover{
-  background:#4A235A;
-  color:#8C8C8C;
-  transition: 0s;
+
+.btn:hover {
+  background: #4A235A;
+  color: #8C8C8C;
 }

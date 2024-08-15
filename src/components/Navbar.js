@@ -23,8 +23,8 @@ const Navbar = () => {
                 </li>
             </ul>
             <div className="hamburger" onClick={handleClick}>
-                {click ? <FaTimes size={25} /> :
-                    <FaBars size={25}  />}
+                {click ? <FaTimes size={30} /> :
+                    <FaBars size={30}  />}
             </div>
         </div>
     );

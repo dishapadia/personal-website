@@ -14,11 +14,11 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className='link'>
-        <span className="icon" onClick={git}><FaGithub size={20} /></span>
+        <span className="icon" onClick={git}><FaGithub size={30} /></span>
         <p onClick={git}></p>
       </div>
       <div className='link'>
-        <span className="icon" onClick={linkedin}><FaLinkedin size={20} /></span>
+        <span className="icon" onClick={linkedin}><FaLinkedin size={30} /></span>
         <p onClick={linkedin}></p>
       </div>
     </div>
