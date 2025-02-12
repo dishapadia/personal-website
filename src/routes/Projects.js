@@ -43,6 +43,12 @@ const Projects = () => {
       img: Sign_Language,
       category: "AR/VR"
     },
+    {
+      name: "StudySphere",
+      link: "https://github.com/dishapadia/DSRR",
+      img: StudySphere,
+      category: "ML/AI"
+    },
   ];
   
   const filteredProjects = selectedFilter === 'all'  ? projects : projects.filter(project => project.category === selectedFilter);
