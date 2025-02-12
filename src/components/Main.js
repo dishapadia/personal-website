@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './MainStyles.css';
-import Resume from '../resume/Resume.pdf'
+import Resume from '../resume/Disha_Padia_Resume.pdf'
 
 const Main = () => {
   return (
