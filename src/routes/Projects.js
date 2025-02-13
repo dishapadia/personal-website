@@ -7,6 +7,7 @@ import Global_Education from '../Images/Global_Education.png';
 import OTR from '../Images/OTR.png';
 import CVForge from '../Images/CVForge.png'
 import Sign_Language from '../Images/Sign_Language.png';
+import StudySphere from '../Images/StudySphere.png';
 
 const Projects = () => {
   
