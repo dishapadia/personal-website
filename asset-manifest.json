@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/personal-website/static/css/main.d68dc642.css",
-    "main.js": "/personal-website/static/js/main.f54b4baa.js",
-    "static/media/Resume.pdf": "/personal-website/static/media/Resume.125e009007d63568401a.pdf",
+    "main.js": "/personal-website/static/js/main.66cf4eab.js",
+    "static/media/Disha_Padia_Resume.pdf": "/personal-website/static/media/Disha_Padia_Resume.83991b3a681e1a49d888.pdf",
+    "static/media/StudySphere.png": "/personal-website/static/media/StudySphere.3a3fef8b6cd2fc199647.png",
     "static/media/Global_Education.png": "/personal-website/static/media/Global_Education.4d5bef87f2f04f67ea82.png",
     "static/media/OTR.png": "/personal-website/static/media/OTR.02142c7098d5824c71dc.png",
     "static/media/Sign_Language.png": "/personal-website/static/media/Sign_Language.798eb8a368a51935f1b0.png",
     "static/media/Calendar.png": "/personal-website/static/media/Calendar.9a906b8fd229d62feb8f.png",
     "index.html": "/personal-website/index.html",
     "main.d68dc642.css.map": "/personal-website/static/css/main.d68dc642.css.map",
-    "main.f54b4baa.js.map": "/personal-website/static/js/main.f54b4baa.js.map"
+    "main.66cf4eab.js.map": "/personal-website/static/js/main.66cf4eab.js.map"
   },
   "entrypoints": [
     "static/css/main.d68dc642.css",
-    "static/js/main.f54b4baa.js"
+    "static/js/main.66cf4eab.js"
   ]
 }
